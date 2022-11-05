@@ -1,0 +1,83 @@
+main {
+    height: 70vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario {
+    display: flex;
+    margin-left: 15vw;
+}
+
+label {
+    font-size: 1.9vh;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+
+#nome,
+#email,
+#contato,
+#mensagem {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5vh;
+    width: 35vw;
+    border-color: gray;
+    padding-bottom: 0.8vh;
+    padding-top: 0.8vh;
+    padding-left: 1vw;
+}
+
+#email,
+#contato,
+#nome {
+    font-size: x-small;
+
+    width: 39vw;
+}
+
+#mensagem {
+
+    padding-bottom: 10vh;
+    width: 39vw;
+}
+
+.quests {
+    font-size: small;
+}
+
+.radio {
+    margin-top: 5px;
+    width: 0.5vw;
+    margin-right: 3px;
+}
+
+.periodo {
+    font-size: 0.7vw;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.lastQuest {
+    margin-top: 20px;
+    font-size: 1vw;
+}
+
+.news {
+    width: 0.7vw;
+    margin-right: 4px;
+}
+
+.submit {
+    margin-top: 25px;
+    font-size: 0.8vw;
+    background-color: orange;
+    padding: 0.8vw;
+    border-radius: 5%;
+    width: 15vw;
+    color: white;
+
+}
